@@ -1,0 +1,207 @@
+h1 { 
+  border: 3px solid;
+  text-align: center;
+	}
+ body {
+  font-size: 20px;
+  text-align: center;
+  border: 0px;
+  background-color: red;
+  font-family: Arial;
+ }
+ul li {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  color: black;
+}
+h3, h2 {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+}
+p{
+  color: black;
+}
+#navbar{
+  background-color: rgb(255, 255, 255);
+  overflow:hidden;    
+  width:100%;
+  font-size: 20px;
+}
+#container{  
+  float:left;
+  width:100%;
+  position: relative;
+  border-bottom:3px solid rgb(135, 135, 135);
+  border-top:3px solid rgb(135, 135, 135);
+}
+
+#navbar ul{
+  list-style-type:none;
+  position:relative;
+  left:50%;
+  float:left;
+}
+
+#navbar ul li{
+  float:left;
+  position:relative;
+  right:50%;
+  border-right: 2px solid rgb(135, 135, 135);
+  border-left: 2px solid rgb(135, 135, 135);
+}
+
+#navbar ul li a{
+  display:block;
+  padding: 20px 20px;
+  text-decoration:none;
+}
+
+#navbar ul li a:hover{
+  background-color: #000;
+}
+#Home {
+  display:block;
+  padding: 20px 20px;
+  display: block;
+  border: 3px solid;
+  text-align: center;
+}
+#Home h4{
+ background-color: white;
+ text-align: center;
+ text-decoration: underline;
+}
+#class{
+  text-decoration: underline;
+}
+@media(min-width: 800px) {
+	
+#schedule {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #b1cdfa;
+}
+#IIT {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  }
+ #navbar ul li{
+  float:center;
+  position:relative;
+  right:50%;
+  border-right: 20px;
+  border-left: 20px;
+}
+#class{
+  font: Calibri;
+}
+}
+@media(min-width: 200px) {
+body{
+	font-size: 1.25rem;
+}
+navbar{
+	width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+#Home{
+	font-size: 1.25rem;
+	border: transparent;
+}
+#container{  
+  border: transparent;
+}
+#navbar ul{
+  border: transparent;
+}
+}
+#schedule {
+  display:block;
+  padding: 20px 20px;
+  display: block;
+  border: 3px solid;
+  text-align: center;
+}
+#IIT:hover {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#class:hover{
+  display:block;
+  border: 0px;
+  border: 3px solid;
+}
+#Resume{
+  display:block;
+  border: 0px;
+  border: 3px solid;
+}
+#Resume h3,#Education h3,#Books h3, #Languages h3, #Volunteer h3, #Games h3, #Experience h3{
+  text-decoration: underline;
+  color: rgb(51, 51, 255);
+}
+#Education{
+  display:block;
+  border: 0px;
+  border: 3px solid;
+  margin: 10px;
+}
+#Languages{
+  display:block;
+  border: 0px;
+  border: 3px solid;
+  margin: 10px;
+}
+#Volunteer{
+  display:block;
+  border: 0px;
+  border: 3px solid;
+  margin: 10px;
+}
+#Experience{
+  display:block;
+  border: 2px;
+  border: 3px solid;
+}
+#Hobbies h2, #Audiobooks h2, #Books h2, #Games h2{
+  text-decoration: underline;
+}
+#Hobbies p, #Audiobooks p, #Books p, #Games p{
+  display:inline-block;
+  border: 0px;
+  border: 3px solid;
+  position: relative;
+  width: 33.33%;
+  float: left;
+}
+#guitar, #Audio, #sheet,{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#wrapper{
+	background-color: black;
+	position: center;
+}
+#map{
+	display:block;
+	position: center;
+	padding: 130px;
+	width: 130px;
+	height: 130px;
+	border: 20px;
+	overflow: hidden;
+	margin: center;
+}

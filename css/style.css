@@ -192,15 +192,12 @@ navbar{
 }
 #wrapper{
   background-color: black;
-  position: center;
 }
 #map{
   display:block;
-  position: center;
   padding: 130px;
   width: 130px;
   height: 130px;
   border: 20px;
   overflow: hidden;
-  margin: center;
 }

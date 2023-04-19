@@ -196,8 +196,11 @@ navbar{
 #map{
   display:block;
   padding: 130px;
-  width: 130px;
-  height: 130px;
-  border: 20px;
+  width: 300px;
+  height: 200px;
+  border: 10px;
   overflow: hidden;
+  margin: center;
+  text-align:center;
+  left:30%;
 }

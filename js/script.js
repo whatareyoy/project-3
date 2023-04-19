@@ -10,12 +10,16 @@ function initMap() {
 }
 	}
   });
-  new google.maps.Marker({
+ const marker = new google.maps.Marker({
   position: {lat: 41.831319, lng: -87.627133},
   title: "IIT Tower",
   animation: google.maps.Animation.Drop,
   icon: "src="images/saul.jpg"
  });
- }
+  const infoWindow = new google.maps.InfoWindow({
+	  constent: "<p>IIT Tower<p>"
+ });
+infoWindow.open(Marker);
+}
 window.initMap = initMap;
 

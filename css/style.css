@@ -93,14 +93,13 @@ p{
   margin-bottom: 20px;
   }
  #navbar ul li{
-  float:center;
   position:relative;
   right:50%;
   border-right: 20px;
   border-left: 20px;
 }
 #class{
-  font: Calibri;
+  font-size: 1.25rem;
 }
 }
 @media(min-width: 200px) {
@@ -186,22 +185,22 @@ navbar{
   width: 33.33%;
   float: left;
 }
-#guitar, #Audio, #sheet,{
+#guitar, #Audio, #sheet{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 #wrapper{
-	background-color: black;
-	position: center;
+  background-color: black;
+  position: center;
 }
 #map{
-	display:block;
-	position: center;
-	padding: 130px;
-	width: 130px;
-	height: 130px;
-	border: 20px;
-	overflow: hidden;
-	margin: center;
+  display:block;
+  position: center;
+  padding: 130px;
+  width: 130px;
+  height: 130px;
+  border: 20px;
+  overflow: hidden;
+  margin: center;
 }
